@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   DESC
   spec.homepage      = 'https://github.com/emotionsAR/rubocop-emotionsar'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Specification.find_by_name('rubocop').required_ruby_version
+  spec.required_ruby_version = Gem::Specification.new('>= 2.4.0') # same as rubocop:0.81.0
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
