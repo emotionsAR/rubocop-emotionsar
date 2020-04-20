@@ -1,0 +1,71 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-minitest
+  - rubocop-rake
+
+# Bundler
+Bundler/OrderedGems:
+  Enabled: false
+
+# Layout
+Layout/LineLength:
+  Enabled: false
+
+# Lint
+Lint/RaiseException:
+  Enabled: true
+Lint/StructNewOverride:
+  Enabled: true
+
+# Metrics
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+# Minitest
+Minitest:
+  Include:
+    - test/**/*.rb
+
+# Rails
+Rails/FilePath:
+  EnforcedStyle: arguments
+Rails/NotNullColumn:
+  Enabled: false
+
+# Rake
+Rake:
+  Include:
+    - Rakefile
+    - lib/tasks/**/*.rake
+
+# Style
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Style/IfUnlessModifier:
+  Enabled: false
+Style/RegexpLiteral:
+  EnforcedStyle: mixed
+  AllowInnerSlashes: true
+Style/SymbolArray:
+  EnforcedStyle: brackets

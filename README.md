@@ -25,6 +25,13 @@ inherit_gem:
   rubocop-emotionsar: .rubocop.yml
 ```
 
+Also the target ruby and rails versions should be specifier per each project:
+```yml
+AllCops:
+  TargetRubyVersion: 2.4   # default as per rubocop:0.81.0
+  TargetRailsVersions: 5.0 # default as per rubocop-rails:2.5.2
+```
+
 And run:
 ```shell
 bundle exec rubocop
