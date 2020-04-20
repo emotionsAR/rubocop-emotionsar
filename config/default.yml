@@ -4,6 +4,10 @@ require:
   - rubocop-minitest
   - rubocop-rake
 
+inherit_mode:
+  merge:
+    - Exclude
+
 # Bundler
 Bundler/OrderedGems:
   Enabled: false
