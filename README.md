@@ -22,7 +22,7 @@ $ bundle install
 Create a `.rubocop.yml` file and include the following directives at the top of it:
 ```yml
 inherit_gem:
-  rubocop-emotionsar: .rubocop.yml
+  rubocop-emotionsar: style.yml
 ```
 
 Also the target ruby and rails versions should be specifier per each project:
