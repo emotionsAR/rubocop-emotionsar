@@ -1,7 +1,7 @@
-# Rubocop::Emotionsar
+# emotionsAR Style guide
 [![Gem Version](https://badge.fury.io/rb/rubocop-emotionsar.svg)](https://badge.fury.io/rb/rubocop-emotionsar)
 
-emotionsAR styleguide for Ruby on Rails projects
+emotionsAR style guide for Ruby on Rails projects
 
 ## Installation
 
