@@ -13,6 +13,8 @@ Bundler/OrderedGems:
   Enabled: false
 
 # Layout
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
 Layout/LineLength:
   Enabled: false
 
